@@ -106,7 +106,7 @@ async function startServer() {
           return;
         if (m.key.id.startsWith("BAE5") && m.key.id.length === 16) return;
         m = smsg(conn, m, store);
-        require("./Arifzyn")(conn, m, chatUpdate, store);
+        require("./kriz")(conn, m, chatUpdate, store);
       } catch (err) {
         console.log(err);
       }
