@@ -1,7 +1,7 @@
 const fs = require("fs")
 const chalk = require("chalk")
 
-global.owner = ["62895347198105"]
+global.owner = ["917594898804"]
 global.mode = false 
 
 let file = require.resolve(__filename);
